@@ -2,3 +2,5 @@
 [user]
     name = Colm MacCárthaigh
     email = colm@allcosts.net
+[core]
+	editor = vim

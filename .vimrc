@@ -41,3 +41,7 @@ augroup cprog
   autocmd BufRead *.c,*.h set formatoptions=croql nocindent comments=sr:/*,mb:**,el:*/,:// number  
  
 augroup END
+
+" highlight extra whitespace at the end of lines
+highlight ExtraWhitespace ctermbg=darkgreen guibg=lightgreen
+match ExtraWhitespace /\s\+$/
